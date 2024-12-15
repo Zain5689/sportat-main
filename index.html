@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- aos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Sportat</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container relative">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <!-- Left: Logo -->
+            <a class="navbar-brand m-0" href="#">
+              <img
+                src="assets/logo.svg"
+                alt="Logo"
+                class="logo"
+                width="217px"
+                height="146px"
+              />
+            </a>
+
+            <!-- hamburger menu -->
+            <button
+              class="navbar-toggler outline-none"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Center: Links -->
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    href="#home"
+                    aria-label="go to home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#about"
+                    aria-label="go to about page"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#services"
+                    aria-label="go to services page"
+                    >Services</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Right: Contact Button -->
+            <div class="d-none d-lg-flex">
+              <a class="contact-button" href="#contact">Contact us</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- hero section -->
+    <main id="home">
+      <div class="container">
+        <div class="hero d-flex flex-column flex-lg-row align-items-center">
+          <div
+            class="hero-content mb-5 mb-lg-0 position-relative"
+            data-aos="fade-right"
+          >
+            <h1 class="hero-title" data-aos="fade-down">Welcome to Sportat!</h1>
+            <p class="hero-subtitle" data-aos="fade-up">
+              Your Ultimate Sports Community
+            </p>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="100">
+              Join Sportat to easily book sports facilities, connect with
+              trainers, and earn while playing. Whether you're a beginner or a
+              pro, we have something for everyone!
+            </p>
+            <p class="cta-heading">Download App Now</p>
+            <div
+              class="cta-buttons d-flex align-items-center gap-5"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <a
+                href="#"
+                class="app-btn google-play d-flex align-items-center gap-2"
+              >
+                <img
+                  src="assets/google-play.svg"
+                  alt="Google Play"
+                  class="store-icon"
+                  width="35"
+                  height="35"
+                />
+                <div>
+                  <span class="text-uppercase">Get it on</span>
+                  <p class="mb-0">Google Play</p>
+                </div>
+              </a>
+              <a href="#" class="app-btn apple-store d-flex align-items-center">
+                <img
+                  src="assets/apple.svg"
+                  alt="App Store"
+                  class="store-icon"
+                  width="35"
+                  height="35"
+                />
+                <div>
+                  <span>Download on the</span>
+                  <p class="mb-0">App Store</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="hero-imgs d-flex" data-aos="fade-left">
+            <img src="assets/hero-1.png" alt="hero 1" />
+            <img src="assets/hero-2.png" alt="hero 2" />
+            <div class="shadow"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- about us section -->
+    <section class="about-us" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="position-relative about-content" data-aos="fade-up">
+              <div class="relative">
+                <h2 class="section-title custom-heading" data-aos="fade-down">
+                  About Sportat
+                </h2>
+              </div>
+              <p
+                class="section-description"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                Sportat is a powerful sports platform designed to make your
+                fitness journey easier and more enjoyable. Whether you’re
+                booking facilities, finding top trainers, or engaging with a
+                vibrant sports community, Sportat has everything in one place.
+                With each booking, you earn Energy Points that can be redeemed
+                for discounts or future services. Stay motivated by connecting
+                with others through posts and short video reels, and shop for
+                high-quality sports gear directly from the app. Sportat brings
+                everything you need for an active lifestyle together in a
+                simple, rewarding way. Join us and elevate your
+                sports experience!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section -->
+    <section class="features" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2 class="section-title custom-heading" data-aos="fade-down">
+                Sportat Features
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="imgs-wrapper">
+                <img
+                  src="assets/calendar.svg"
+                  class="inner-icon"
+                  alt="Outer Circle"
+                />
+              </div>
+              <h3 class="feature-title">Easy Booking</h3>
+              <p class="feature-description">
+                Quickly reserve sports facilities, from gyms to swimming pools,
+                at your convenience.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="imgs-wrapper">
+                <img src="assets/energy.svg" class="inner-icon" alt="energy" />
+              </div>
+              <h3 class="feature-title">Reward energy Points</h3>
+              <p class="feature-description">
+                Earn Power Points with every booking that can be redeemed for
+                discounts and services.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="imgs-wrapper">
+                <img src="assets/like.svg" class="inner-icon" alt="like" />
+              </div>
+              <h3 class="feature-title">Community Engagement</h3>
+              <p class="feature-description">
+                Join a vibrant community of sports enthusiasts, share
+                experiences, and stay updated with the latest posts and reels.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+              <div class="imgs-wrapper">
+                <img src="assets/home.svg" class="inner-icon" alt="home" />
+              </div>
+              <h3 class="feature-title">In-App Shopping</h3>
+              <p class="feature-description">
+                Conveniently shop for sports products directly within the app,
+                making it easy to find and purchase everything you need.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+              <div class="imgs-wrapper">
+                <img src="assets/video.svg" class="inner-icon" alt="video" />
+              </div>
+              <h3 class="feature-title">Short Reels</h3>
+              <p class="feature-description">
+                Watch and share quick, inspiring video clips showcasing
+                workouts, tips, and events. Get motivated.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+              <div class="imgs-wrapper">
+                <img
+                  src="assets/ticket-discount.svg"
+                  class="inner-icon"
+                  alt="voucher"
+                />
+              </div>
+              <h3 class="feature-title">Vouchers</h3>
+              <p class="feature-description">
+                Access exclusive vouchers for discounts on services and products
+                within the app. Save money while enjoying your favorite sports.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book -->
+    <section class="book">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+            <h3 class="custom-heading fs-2">
+              Book Fields and Manage Subscriptions
+            </h3>
+            <p class="custom-desc">
+              Sportat simplifies the process of booking sports fields and
+              managing your memberships, offering a seamless experience for all
+              users. Whether you're looking to reserve a football pitch,
+              basketball court, tennis court, or even a swimming pool, Sportat
+              provides access to a variety of facilities at the best locations.
+              With real-time availability and instant confirmation, you can
+              easily book your preferred venue for training, practice, or
+              friendly matches.
+            </p>
+            <p class="custom-desc">
+              In addition to field bookings, Sportat also offers a range of
+              subscriptions to suit your fitness needs. Whether you're
+              interested in monthly gym memberships, swimming class packages, or
+              yearly access to sports clubs, you can explore and choose the plan
+              that best fits your schedule and goals.
+            </p>
+            <p class="custom-desc">
+              For example, you can subscribe to a 6-month swimming program at
+              your local club, a monthly football field membership that offers
+              discounted bookings for weekly games, or an annual fitness package
+              that provides unlimited access to the gym and group classes.
+            </p>
+            <p class="custom-desc">
+              With a variety of flexible subscription options, Sportat ensures
+              that you have full control over how you engage with sports and
+              fitness, making it easier than ever to stay active. Whether it's
+              booking a court or signing up for a membership, Sportat provides a
+              streamlined, stress-free experience to help you focus on what
+              matters most—playing and staying fit!
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="assets/book-img.png"
+              alt="book-img"
+              class="book-img w-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sportat Energy  section -->
+    <section class="sportar-energy">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 d-flex justify-content-center justify-content-lg-start"
+          >
+            <div class="md-p-3 mt-5 md-mt-0">
+              <img src="assets/sportar-img.png" alt="sportar-img" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex flex-column h-100">
+              <div class="p-3">
+                <h3 class="custom-heading">Sportar Energy Points</h3>
+                <p class="custom-desc">
+                  Energy Points is Sportat’s unique rewards system that
+                  motivates you to stay active and engaged. Every time you book
+                  a facility, attend a class, or participate in app activities,
+                  you accumulate points. These points can be redeemed for
+                  discounts on future bookings, exclusive deals, or purchases
+                  from the in-app sports store. The more you use Sportat, the
+                  more points you earn, allowing you to unlock exciting rewards
+                  and offers. With Energy Points, Sportat makes your fitness
+                  journey not only enjoyable but also rewarding. Stay active,
+                  collect points, and reap the benefits as you achieve your
+                  fitness goals!
+                </p>
+              </div>
+              <div class="position-relative flex-grow-1">
+                <img
+                  class="sportar-img2"
+                  src="assets/Sporta-energy-2.jpg"
+                  alt="Sporta-energy-2"
+                  style="max-width: 100%"
+                />
+                <img
+                  class="sportar-lan position-absolute"
+                  src="assets/heading.png"
+                  alt="heading"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- community section -->
+    <section class="community">
+      <div class="container">
+        <h2 class="custom-heading" data-aos="fade-down">Community & Reels</h2>
+        <div class="row content" data-aos="fade-up" data-aos-delay="100">
+          <p>
+            Sportat’s Community feature connects you with like-minded sports
+            enthusiasts, creating a vibrant space to share experiences, tips,
+            and inspiration. You can engage with posts, participate in
+            discussions, and motivate each other on your fitness journey. Our
+            Reels section brings dynamic, short-form videos from athletes,
+            trainers, and users, offering quick insights, workout ideas, and
+            highlights to keep you inspired. Whether you're seeking motivation
+            or sharing your own achievements, the Sportat community and reels
+            help you stay connected, informed, and motivated every step of the
+            way.
+          </p>
+          <h4 data-aos="fade-up" data-aos-delay="200">
+            Engage with Fellow Athletes
+          </h4>
+          <p data-aos="fade-up" data-aos-delay="300">
+            Sportat’s community is where fitness enthusiasts come together to
+            share, inspire, and grow. Connect with others by posting updates,
+            sharing your progress, and offering tips to motivate your peers.
+            Dive into a world of exciting short Reels from athletes and
+            trainers, filled with workout routines, sports highlights, and daily
+            fitness inspiration. Whether you're learning, sharing, or simply
+            enjoying the content, Sportat’s community keeps you engaged and
+            motivated on your fitness journey.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- shop section -->
+    <section class="shop">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2 class="custom-heading">Shop for sports gear</h2>
+            <p class="desc">
+              Sportat’s Shop is your one-stop destination for all your sports
+              and fitness needs. From top-quality equipment to apparel and
+              accessories, the store offers a wide range of products to enhance
+              your performance and keep you ready for any challenge. Whether
+              you’re looking for the latest gear or essentials for your
+              workouts, you can easily browse and purchase directly through the
+              app. With exclusive offers and discounts available, the Sportat
+              Shop ensures that you have everything you need to elevate your
+              fitness game.
+            </p>
+          </div>
+          <div
+            class="col-lg-6 d-flex align-items-center justify-content-center"
+            data-aos="fade-left"
+          >
+            <div class="position-relative">
+              <img
+                src="assets/shop.jpg"
+                alt="shop"
+                class="img-fluid main-img"
+              />
+              <div class="outer-img">
+                <img
+                  class="inner-img"
+                  src="assets/ticket-discount.svg"
+                  alt="voucher"
+                  width="50"
+                  height="50"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- download section -->
+    <section class="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-right">
+            <h2 class="custom-heading" data-aos="fade-down">
+              Download the Sportat App
+            </h2>
+            <p class="mb-5" data-aos="fade-up">
+              Get started on your fitness journey today by downloading the
+              Sportat app! Available on both iOS and Android, Sportat puts a
+              world of sports at your fingertips. Whether you want to book
+              facilities, earn rewards, connect with trainers, or shop for the
+              latest sports gear,
+            </p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="100">
+              <div class="cta-buttons d-flex align-items-center gap-3">
+                <a
+                  href="#"
+                  class="app-btn google-play d-flex align-items-center gap-2"
+                >
+                  <img
+                    src="assets/google-play.svg"
+                    alt="Google Play"
+                    class="store-icon"
+                    width="35"
+                    height="35"
+                  />
+                  <div>
+                    <span class="text-uppercase">Get it on</span>
+                    <p class="mb-0">Google Play</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="app-btn apple-store d-flex align-items-center"
+                >
+                  <img
+                    src="assets/apple.svg"
+                    alt="App Store"
+                    class="store-icon"
+                    width="35"
+                    height="35"
+                  />
+                  <div>
+                    <span>Download on the</span>
+                    <p class="mb-0">App Store</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center gap-3 pt-3"
+            >
+              <p class="text-center mb-0">
+                Or Scan QR<br />
+                code
+              </p>
+              <div class="download-code">
+                <img src="assets/qr.png" alt="" class="code" width="60px" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-none d-md-block" data-aos="fade-left">
+            <img src="assets/download.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-us section -->
+    <section class="contact-us">
+      <div class="container">
+        <div class="row flex justify-content-between">
+          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+            <div>
+              <div class="icon mb-4">
+                <i class="fa-solid fa-comment"></i>
+              </div>
+              <h3 class="title" data-aos="fade-up">
+                Get a free consultancy from our expert right now!
+              </h3>
+              <p class="desc my-4" data-aos="fade-up" data-aos-delay="100">
+                With lots of unique blocks, you can easily build a page without
+                coding. Build your next landing page so quickly with Albino.
+              </p>
+              <div
+                class="connect d-flex flex-column flex-xxl-row justify-content-between p-3 shadow"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <p class="mt-3">info@youremail.com</p>
+                </div>
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="phone"><i class="fa-solid fa-phone"></i></div>
+                  <p class="mt-3">+880 321 655 9985</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <form
+              class="d-flex flex-column p-4 gap-3 shadow rounded-2"
+              data-aos="fade-up"
+            >
+              <label for="name">Name</label>
+              <input type="text" placeholder=" John Doe" id="name" />
+              <label for="email">Email</label>
+              <input type="email" placeholder=" john@mail.com" id="email" />
+              <label for="phone">Phone</label>
+              <input type="text" placeholder=" 123-456-7890" id="phone" />
+              <label for="message">Message</label>
+              <input
+                type="text"
+                placeholder="Type your message here"
+                id="message"
+              />
+              <button>Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-4">
+            <img
+              src="assets/logo-footer.svg"
+              alt="Sportat Logo"
+              class="footer-logo mb-3"
+            />
+
+            <div class="social-icons mb-4">
+              <a href="#" class="social-icon me-2" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon me-2" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icon me-2" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+              <a href="#" class="social-icon" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" class="social-icon" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="#" class="social-icon" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+
+            <div
+              class="cta-buttons d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+            >
+              <a
+                href="#"
+                class="app-btn google-play d-flex align-items-center gap-2"
+              >
+                <img
+                  src="assets/google-play.svg"
+                  alt="Google Play"
+                  class="store-icon"
+                  width="35"
+                  height="35"
+                />
+                <div>
+                  <span class="text-uppercase">get it on</span>
+                  <p class="mb-0">Google Play</p>
+                </div>
+              </a>
+              <a href="#" class="app-btn apple-store d-flex align-items-center">
+                <img
+                  src="assets/apple.svg"
+                  alt="App Store"
+                  class="store-icon"
+                  width="35"
+                  height="35"
+                />
+                <div>
+                  <span>Download on the</span>
+                  <p class="mb-0">App Store</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Second Column: Quick Links -->
+          <div class="col-md-2">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">FAQS</a></li>
+            </ul>
+          </div>
+
+          <!-- Third Column: Newsletter Subscription -->
+          <div class="col-lg-4">
+            <h4 class="footer-heading">Get Our Latest Updates</h4>
+            <p class="mb-5">
+              With lots of unique blocks, you can easily build a page without
+              coding. Build your next landing page.
+            </p>
+            <div class="newsletter-form position-relative">
+              <input
+                type="email"
+                class="form-control mb-2"
+                placeholder="Enter your email"
+              />
+              <button class="">Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom: Border and Copyright -->
+        <div class="footer-bottom mt-4 pt-3 border-top">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="mb-0">
+                &copy; Copyright 2024 Amr Abd Elhady. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- aos -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
